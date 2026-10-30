@@ -1,2 +1,0 @@
-# gestao-ibao
-Gestão Ibaô
