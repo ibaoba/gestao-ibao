@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="refresh" content="60">
+<title>IBAÔ - Plataforma Gestão · Em manutenção</title>
+<style>
+  html,body{height:100%;margin:0}
+  body{display:flex;align-items:center;justify-content:center;background:#F6EEDF;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#3B2616;padding:16px;box-sizing:border-box}
+  .card{max-width:460px;text-align:center;background:#FFFDF8;border-radius:24px;padding:40px 32px;box-shadow:0 20px 50px -20px rgba(62,40,23,.35)}
+  h1{font-size:1.4rem;margin:0 0 10px}
+  p{margin:8px 0;line-height:1.5;color:#6B5744}
+  .dot{width:14px;height:14px;border-radius:50%;background:#9B2D27;margin:0 auto 18px;animation:p 1.2s ease-in-out infinite}
+  @keyframes p{50%{transform:scale(1.6);opacity:.4}}
+  button{margin-top:16px;background:#9B2D27;color:#fff;border:0;border-radius:12px;padding:12px 22px;font-weight:700;font-size:.95rem;cursor:pointer}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="dot"></div>
+  <h1>Plataforma em manutenção</h1>
+  <p>Estamos atualizando a plataforma do Ibaô.<br>Aguarde cerca de 5 minutos e tente novamente.</p>
+  <p style="font-size:.85rem">Seus dados estão seguros. Esta página recarrega sozinha a cada minuto.</p>
+  <button onclick="location.href=location.pathname.replace(/[^/]*$/,'')||'/'">Tentar novamente</button>
+</div>
+</body>
+</html>
